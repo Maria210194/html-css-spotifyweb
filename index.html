@@ -5,33 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Spotify</title>
 </head>
 
-<body>
+<body class="debug">
     <!--full-page viewport 100x100-->
+    <div class="full-page">
 
-    <!--main-->
+        <!--main-->
+        <div class="main">
 
-    <!--div left(nav)-->
-    <!--nav-->
-    <!--/nav-->
-    <!--/div left(nav)-->
+            <!--div left(nav)-->
+            <div id="search" class="left">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="Spotify">
+                </div>
+                <div class="icon">
+                    <div><i class="pad fa-solid fa-house"></i>Home</div>
+                    <div><i class="pad fa-solid fa-magnifying-glass"></i>Cerca</div>
+                    <div><i class="pad fa-solid fa-grip-lines-vertical"></i>La tua libreria</div>
+                </div>
+                <!--nav-->
+                <div id="play">
+                    <h6>PLAYLIST</h6>
+                    <div class="crea-playlist">
+                        <i id="btn-big" class="fa-solid fa-circle-plus"></i>
+                        <span id="txt-small">Crea Playlist</span>
+                    </div>
+                    <nav class="nuova-playlist">
+                        <ul>
+                            <li class="nome">Nome playlist</li>
+                            <li class="nome">Nome playlist</li>
+                            <li class="nome">Nome playlist</li>
+                            <li class="nome">Nome playlist</li>
+                            <li class="nome">Nome playlist</li>
+                            <li class="nome">Nome playlist</li>
+                            <li class="nome">Nome playlist</li>
+                        </ul>
+                    </nav>
+                    <!--/nav-->
 
-    <!--div right(header+songs)-->
-    <!--header-->
-    <!--/header-->
+                </div>
+                <div class="left-bottom">
+                    <div class="installa">
+                        <i class="fa-solid fa-circle-down"></i>
+                        Installa app
+                    </div>
+                    <div class="john">
+                        <i id="doe" class="fa-solid fa-circle-user"></i>
+                        John Doe
+                    </div>
+                </div>
+            </div>
+            <!--/div left(nav)-->
 
-    <!--songs-->
-    <!--/songs-->
-    <!--/div right(header+songs)-->
+            <!--div right(header+songs)-->
+            <div class="right">
+                <!--header-->
+                <!--/header-->
 
-    <!--/main-->
+                <!--songs-->
+                <!--/songs-->
+            </div>
+            <!--/div right(header+songs)-->
+        </div>
+        <!--/main-->
 
-    <!--footer fisso-->
-    <!--/footer fisso-->
+        <!--footer fisso-->
+        <div class="footer">
 
+        </div>
+        <!--/footer fisso-->
+
+    </div>
     <!--/full-page viewport 100x100-->
 </body>
 
