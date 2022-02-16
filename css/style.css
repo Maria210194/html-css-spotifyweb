@@ -15,9 +15,17 @@ body{
 
 .green-border-bottom{
     border-bottom: 1px solid lightgreen;
-    border-image: linear-gradient(to bottom, lightgreen, rgba(0,0,0,0));
 }
 
+.green-border-left{
+    border-left: 1px solid lightgreen;
+}
+
+.small-grey-txt{
+    font-size: 8px;
+    color: #646464;
+    text-align: center;
+}
 
 
 /* contnent */
@@ -195,6 +203,30 @@ body{
     text-transform: uppercase;
 }
 
+.section{
+    color: white;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.small-box{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 7);
+    margin: 8px;
+}
+
+h4{
+    padding-left: 8px;
+    margin: 10px 0px;
+}
+
+h6{
+    text-align: center;
+}
 
 
 
